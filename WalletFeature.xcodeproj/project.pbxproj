@@ -58,14 +58,13 @@
 		272CAF1A265C56770038F4E8 /* WalletFeature */ = {
 			isa = PBXGroup;
 			children = (
-				272CAF1B265C56770038F4E8 /* WalletFeatureApp.swift */,
-				272CAF1D265C56770038F4E8 /* ContentView.swift */,
 				272CAF1F265C56790038F4E8 /* Assets.xcassets */,
 				272CAF24265C56790038F4E8 /* Info.plist */,
-				272CAF21265C56790038F4E8 /* Preview Content */,
-				27EF344A265C756F00F88A5F /* CardModel.swift */,
+				276DB64C265C93EB00CF8FC6 /* App */,
 				27EF344D265C762B00F88A5F /* CardView.swift */,
-				27EF3450265C78D900F88A5F /* WalletView.swift */,
+				276DB64D265C93F400CF8FC6 /* Model */,
+				276DB64E265C93FB00CF8FC6 /* View */,
+				272CAF21265C56790038F4E8 /* Preview Content */,
 			);
 			path = WalletFeature;
 			sourceTree = "<group>";
@@ -76,6 +75,31 @@
 				272CAF22265C56790038F4E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		276DB64C265C93EB00CF8FC6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				272CAF1B265C56770038F4E8 /* WalletFeatureApp.swift */,
+				272CAF1D265C56770038F4E8 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		276DB64D265C93F400CF8FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27EF344A265C756F00F88A5F /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		276DB64E265C93FB00CF8FC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27EF3450265C78D900F88A5F /* WalletView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

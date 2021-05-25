@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        WalletView(cardsNumber: cards.count, cards: cards, show: false)
-            .animation(.easeIn)
+        NavigationView {
+            WalletView(cardsNumber: cards.count, cards: cards, show: false)
+                .animation(.easeIn)
+                .navigationBarTitle("My Wallet")
+        }
     }
 }
 
